@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:elevation="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cover"
+            android:layout_margin="12dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            app:cardCornerRadius="5dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp">
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:src="@drawable/song_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/cover"
+            android:layout_toLeftOf="@id/ivUpload"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSongName"
+                style="@style/SongName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Tên bài hát" />
+
+            <TextView
+                android:id="@+id/tvSingerName"
+                style="@style/SingerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nghệ sĩ" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivUpload"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/ic_upload_cloud" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

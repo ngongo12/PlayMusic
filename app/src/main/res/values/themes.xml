@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ps14237_NgoQuocVinh_Assigment" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:screenOrientation">portrait</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#6E99BC</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_round</item>
+    </style>
+
+    <style name="SplashscreenTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/gradient_bg_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#00FFFFFF</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:navigationBarColor">#00FFFFFF</item>
+    </style>
+
+    <style name="LoginFormTextInpLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+
+    <style name="LoginEditText">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- Customize for navigationview -->
+    <style name="CustomBottomNav" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/white</item>
+        <item name="backgroundTint">#00ffffff</item>
+        <item name="colorPrimary">@color/grey333</item>
+        <item name="colorOnPrimary">@color/grey333</item>
+        <item name="itemTextAppearanceActive">@style/ActivText</item>
+        <item name="itemTextAppearanceInactive">@style/InActivText</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="InActivText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey333</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="ActivText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/purple430</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- End Customize for navigationview -->
+    <style name="SongName">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SongNameBottomSheet">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SingerName">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SingerNameBottomSheet">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FragmentPadding">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

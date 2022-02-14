@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSearch"
+    android:background="@drawable/bg_search"
+    android:padding="6dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivSearch"
+        android:src="@drawable/ic_search"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:backgroundTint="@color/grey333"
+        android:layout_width="16dp"
+        android:layout_height="16dp"/>
+    <EditText
+        android:id="@+id/edSearch"
+        android:layout_toRightOf="@id/ivSearch"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:background="@null"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Bài hát, Nghệ sĩ"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textColor="@color/grey333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
