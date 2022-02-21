@@ -4,6 +4,13 @@
 Server viết bằng PHP  
 Client kết nối với Server qua api  
 File được lưu trữ tên Firebase Storage  
+
+# Chức năng
+Người dùng đăng nhập vào tài khoản  
+Lưu trữ bài hát lên server
+Lưu bài hát yêu thích  
+Nghe nhạc  
+Tạo danh sách bài hát  
  
 # Hình ảnh
 ## Login
